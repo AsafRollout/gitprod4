@@ -1,0 +1,11 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+flag: ns.enableTutorial
+conditions:
+  - property:
+      name: apap
+      operator: in-array
+      operand:
+        - asdf
+    value: false
+value: true
