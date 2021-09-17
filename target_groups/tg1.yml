@@ -1,0 +1,6 @@
+type: target-group
+name: tg1
+conditions:
+  - operator: ne
+    property: apap
+    operand: '123'
