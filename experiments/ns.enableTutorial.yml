@@ -2,6 +2,9 @@
 type: experiment
 flag: ns.enableTutorial
 conditions:
+  - group:
+      name: tg4
+    value: false
   - property:
       name: apap
       operator: in-array
